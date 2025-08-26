@@ -28,7 +28,7 @@ def calculate_paired_stats(pre_data, post_data):
     temp_df = pd.DataFrame({'pre': pre_data, 'post': post_data}).dropna()
     pre = temp_df['pre']
     post = temp_df['post']
-    w
+    
     if len(pre) < 2:  # 데이터가 부족하면 계산 불가
         return {}
 
